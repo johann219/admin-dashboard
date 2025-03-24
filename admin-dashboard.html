@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Admin Dashboard</title>
   <link rel="stylesheet" href="admin-dashboard.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
   <aside>
@@ -53,104 +56,149 @@
     </header>
     <section>
       <div class="projects">
-        <h3>Projects</h3>
-        <div class="card project-card">
-          <h4>Project Name</h4>
-          <p>Project Description</p>
-          <div class="project-icons">
-            <div class="icon-placeholder"></div>
-            <div class="icon-placeholder"></div>
-            <div class="icon-placeholder"></div>
+        <h3>Your projects</h3>
+        <div class="project-cards-wrapper">
+          <div class="card project-card">
+            <div class="project-text">
+              <h4 class="project-name">Project Name</h4>
+              <p class="project-desc">
+                Cras venenatis elit dui, nec accumsan
+                nisl tristique eget. Vestibulum
+                consequat posuere ante ut faucibus.
+              </p>
+            </div>
+            <div class="project-icons">
+              <div class="icon-placeholder"></div>
+              <div class="icon-placeholder"></div>
+              <div class="icon-placeholder"></div>
+            </div>
           </div>
-        </div>
-        <div class="card project-card">
-          <h4>Project Name</h4>
-          <p>Project Description</p>
-          <div class="project-icons">
-            <div class="icon-placeholder"></div>
-            <div class="icon-placeholder"></div>
-            <div class="icon-placeholder"></div>
+          <div class="card project-card">
+            <div class="project-text">
+              <h4 class="project-name">Project Name</h4>
+              <p class="project-desc">
+                Morbi a aliquet ante. Duis et massa iaculis
+                augue sodales mattis pretium at metus.
+                Phasellus mollis luctus enim non tempor.
+              </p>
+            </div>
+            <div class="project-icons">
+              <div class="icon-placeholder"></div>
+              <div class="icon-placeholder"></div>
+              <div class="icon-placeholder"></div>
+            </div>
           </div>
-        </div>
-        <div class="card project-card">
-          <h4>Project Name</h4>
-          <p>Project Description</p>
-          <div class="project-icons">
-            <div class="icon-placeholder"></div>
-            <div class="icon-placeholder"></div>
-            <div class="icon-placeholder"></div>
+          <div class="card project-card">
+            <div class="project-text">
+              <h4 class="project-name">Project Name</h4>
+              <p class="project-desc">
+                Pellentesque a arcu turpis. Sed a quam
+                sed eros convallis placerat. Nulla tristique.
+              </p>
+            </div>
+            <div class="project-icons">
+              <div class="icon-placeholder"></div>
+              <div class="icon-placeholder"></div>
+              <div class="icon-placeholder"></div>
+            </div>
           </div>
-        </div>
-        <div class="card project-card">
-          <h4>Project Name</h4>
-          <p>Project Description</p>
-          <div class="project-icons">
-            <div class="icon-placeholder"></div>
-            <div class="icon-placeholder"></div>
-            <div class="icon-placeholder"></div>
+          <div class="card project-card">
+            <div class="project-text">
+              <h4 class="project-name">Project Name</h4>
+              <p class="project-desc">
+                Morbi commodo nisl sapien, pretium semper
+                ligula aliquam nec. Sed in sapien vel ligula
+                sagittis consequat sit amet eget quam.
+                Nullam ullamcorper cursus leo. Integer.
+              </p>
+            </div>
+            <div class="project-icons">
+              <div class="icon-placeholder"></div>
+              <div class="icon-placeholder"></div>
+              <div class="icon-placeholder"></div>
+            </div>
           </div>
-        </div>
-        <div class="card project-card">
-          <h4>Project Name</h4>
-          <p>Project Description</p>
-          <div class="project-icons">
-            <div class="icon-placeholder"></div>
-            <div class="icon-placeholder"></div>
-            <div class="icon-placeholder"></div>
+          <div class="card project-card">
+            <div class="project-text">
+              <h4 class="project-name">Project Name</h4>
+              <p class="project-desc">
+                Maecenas tincidunt dui at turpis rhoncus,
+                vel efficitur arcu eleifend. Etiam
+                tristique, nulla at feugiat iaculis.
+              </p>
+            </div>
+            <div class="project-icons">
+              <div class="icon-placeholder"></div>
+              <div class="icon-placeholder"></div>
+              <div class="icon-placeholder"></div>
+            </div>
           </div>
-        </div>
-        <div class="card project-card">
-          <h4>Project Name</h4>
-          <p>Project Description</p>
-          <div class="project-icons">
-            <div class="icon-placeholder"></div>
-            <div class="icon-placeholder"></div>
-            <div class="icon-placeholder"></div>
+          <div class="card project-card">
+            <div class="project-text">
+              <h4 class="project-name">Project Name</h4>
+              <p class="project-desc">
+                Sed lorem nunc, lacinia sed eleifend ut,
+                lacinia eget massa. Donec vel pretium tellus.
+                Proin blandit aliquet massa, ut scelerisque
+                ligula molestie vitae.
+              </p>
+            </div>
+            <div class="project-icons">
+              <div class="icon-placeholder"></div>
+              <div class="icon-placeholder"></div>
+              <div class="icon-placeholder"></div>
+            </div>
           </div>
         </div>
       </div>
-      <div class="side-list">
-        <h3>Announvements</h3>
-        <div class="list-card">
-          <ul>
+      <div class="side-lists">
+        <div class="side-list">
+          <h3>Announcements</h3>
+          <ul class="card list-card">
             <li class="announcement">
               <h5>Site Maintenance</h5>
               <p>Cras venenatis elit dui, nec accumsan nisl tristique eget. Vestibulum consequat posuere...</p>
             </li>
             <li class="announcement">
               <h5>Community Share Day</h5>
-              <p>Morbi sed auctor mauris, vitae efficitur nisl. Maecenas ac nulla sed eros egestas...</p>
+              <p>Morbi sed auctor mauris, vitae efficitur nisl...</p>
             </li>
             <li class="announcement">
               <h5>Updated Privacy Policy</h5>
-              <p>Morbi a aliquet ante. Duis et massa iaculis augue sodales mattis pretium at metus. Phasellus mollis luctus enim non tempor...</p>
+              <p>Morbi a aliquet ante. Duis et massa iaculis augue sodales mattis pretium at metus...</p>
             </li>
           </ul>
         </div>
-      </div>
-      <div class="side-list">
-        <h3>Trending</h3>
-        <div class="list-card">
-          <ul>
-            <li class="trending">
+        <div class="side-list">
+          <h3>Trending</h3>
+          <ul class="card list-card">
+            <li class="trend">
               <div class="pfp-placeholder-small"></div>
-              <p>@profile-name</p>
-              <p>Project Name</p>
+              <div class="trend-text">
+                <p class="trend-tag">@profile-name</p>
+                <p class="trend-name">Project Name</p>
+              </div>
             </li>
-            <li class="trending">
+            <li class="trend">
               <div class="pfp-placeholder-small"></div>
-              <p>@profile-name</p>
-              <p>Project Name</p>
+              <div class="trend-text">
+                <p class="trend-tag">@profile-name</p>
+                <p class="trend-name">Project Name</p>
+              </div>
             </li>
-            <li class="trending">
+            <li class="trend">
               <div class="pfp-placeholder-small"></div>
-              <p>@profile-name</p>
-              <p>Project Name</p>
+              <div class="trend-text">
+                <p class="trend-tag">@profile-name</p>
+                <p class="trend-name">Project Name</p>
+              </div>
             </li>
-            <li class="trending">
+            <li class="trend">
               <div class="pfp-placeholder-small"></div>
-              <p>@profile-name</p>
-              <p>Project Name</p>
+              <div class="trend-text">
+                <p class="trend-tag">@profile-name</p>
+                <p class="trend-name">Project Name</p>
+              </div>
             </li>
           </ul>
         </div>
