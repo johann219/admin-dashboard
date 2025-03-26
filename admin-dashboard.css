@@ -74,6 +74,7 @@ aside {
   display: grid;
   grid-template-columns: 4rem 1fr;
   gap: 1rem;
+  align-items: center;
 }
 
 .sidebar-list > li {
@@ -81,8 +82,18 @@ aside {
 }
 
 .sidebar-list > li > .icon-placeholder,
-.sidebar-header > .pfp-placeholder-small {
+.sidebar-header > img,
+.sidebar-list > li > img {
   justify-self: center;
+}
+
+.sidebar-icon-small {
+  width: 2rem;
+  filter: invert(100%) brightness(100%) contrast(100%);
+}
+
+.sidebar-icon-big {
+  filter: invert(100%) brightness(100%) contrast(100%);
 }
 
 /* SIDE BAR */
