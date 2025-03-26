@@ -57,6 +57,36 @@ h5 {
   font-weight: 500;
 }
 
+/* SIDE BAR */
+
+aside {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #fff;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.sidebar-list > li,
+.sidebar-header {
+  display: grid;
+  grid-template-columns: 4rem 1fr;
+  gap: 1rem;
+}
+
+.sidebar-list > li {
+  margin: 1rem 0;
+}
+
+.sidebar-list > li > .icon-placeholder,
+.sidebar-header > .pfp-placeholder-small {
+  justify-self: center;
+}
+
+/* SIDE BAR */
+
 /* NAVIGATION BAR */
 
 .nav-bar {
@@ -82,13 +112,6 @@ h5 {
 
 .user-info {
   justify-content: flex-end;
-}
-
-.user-hello {
-}
-
-.user-greeting {
-
 }
 
 .task-buttons {
