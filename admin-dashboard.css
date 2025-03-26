@@ -10,7 +10,7 @@ body {
   min-height: 100vh;
   width: 100%;
   display: grid;
-  grid-template-columns: 1fr 4fr;
+  grid-template-columns: 1fr 5fr;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -31,50 +31,14 @@ main {
   grid-template-rows: 1fr 5fr;
 }
 
-header {
-  display: grid;
-  grid-template-rows: repeat(2, 1fr);
-}
-
 ul {
   list-style: none;
-}
-
-.search-bar {
-  display: grid;
-  grid-template-columns: 5fr 2fr;
-}
-
-.task-bar {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  align-items: center;
-}
-
-.user-hello {
-  display: flex;
-}
-
-input[type="search"] {
-  width: 80%;
-  background-color: #e2e8f0;
-}
-
-.search {
-  display: flex;
-  align-items: center;
-}
-
-.user-info {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
 }
 
 section {
   display: grid;
   grid-template-columns: 4fr 1fr;
-  margin: 3rem;
+  padding: 1.5rem;
 }
 
 h3 {
@@ -93,6 +57,73 @@ h5 {
   font-weight: 500;
 }
 
+/* NAVIGATION BAR */
+
+.nav-bar {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  align-items: center;
+  padding: 1rem 3rem;
+}
+
+.search,
+.user-info,
+.user-hello,
+.task-buttons {
+  display: flex;
+  font-size: 1.4rem;
+  align-items: center;
+  gap: 1em;
+}
+
+.search {
+  justify-content: flex-start;
+}
+
+.user-info {
+  justify-content: flex-end;
+}
+
+.user-hello {
+}
+
+.user-greeting {
+
+}
+
+.task-buttons {
+  justify-content: flex-end;
+}
+
+button {
+  font-size: 1.4rem;
+  padding: 0.4em 0.8em;
+  min-width: 120px;
+  border: none;
+  border-radius: 1em;
+  background-color: #1992d4;
+  color: #fff;
+  font-weight: bold;
+}
+
+input[type="search"] {
+  width: 80%;
+  border-radius: 1.4rem;
+  font-size: 1em;
+  padding: 0.4rem 1rem;
+  border: none;
+  background-color: #e2e8f0;
+}
+
+input[type="search"]:focus {
+  outline: none;
+  border: 2px solid #1992d466;
+}
+
+/* NAVIGATION BAR */
+
+/* CONTENT CARDS */
+
 .project-cards-wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(45ch, 1fr));
@@ -108,7 +139,7 @@ h5 {
 
 .project-card {
   border-left: 1rem solid #f0b429;
-  padding: 1.8rem;
+  padding: 1.5rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -147,7 +178,7 @@ h5 {
   flex-direction: column;
   justify-content: space-between;
   flex: 1;
-  padding: 2rem;
+  padding: 2.5rem;
 }
 
 .trend {
@@ -167,6 +198,9 @@ h5 {
   color: #636363;
   font-weight: 100;
 }
+
+/* CONTENT CARDS */
+
 .icon-placeholder {
   width: 2rem;
   height: 2rem;
