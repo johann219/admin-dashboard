@@ -87,12 +87,11 @@ aside {
   justify-self: center;
 }
 
-.sidebar-icon-small {
+.icon-small {
   width: 2rem;
-  filter: invert(100%) brightness(100%) contrast(100%);
 }
 
-.sidebar-icon-big {
+.icon-white {
   filter: invert(100%) brightness(100%) contrast(100%);
 }
 
@@ -235,23 +234,14 @@ input[type="search"]:focus {
 
 /* CONTENT CARDS */
 
-.icon-placeholder {
-  width: 2rem;
-  height: 2rem;
-  border-radius: 50%;
-  background-color: grey;
-}
-
-.pfp-placeholder-small {
+.pfp-small {
   width: 3rem;
   height: 3rem;
   border-radius: 50%;
-  background-color: grey;
 }
 
-.pfp-placeholder-big {
+.pfp-big {
   width: 5rem;
   height: 5rem;
   border-radius: 50%;
-  background-color: grey;
 }
